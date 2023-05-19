@@ -1,0 +1,41 @@
+
+body, html {
+  background: #c7c4c4;
+}
+
+.activatd {
+  color: green;
+  background-color: green;
+}
+
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.centered-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+/* logout */
+.container-l {
+  position: absolute;
+  width: 1000px;
+  background: orange !important;
+}
+
+.text {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  right: 20%;
+  cursor: pointer;
+}
